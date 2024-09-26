@@ -90,7 +90,7 @@ void mergeSort(int arr[],
 void printArray(int A[], int size)
 {
 	int i;
-	for (i = 0; i < size; i++)
+	for (i = 0; i < size+3; i++)
 		printf("%d ", A[i]);
 	printf("\n");
 }
